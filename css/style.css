@@ -1,0 +1,156 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Global CSS */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3,h4, h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.img-custom{
+	width: 100%;
+}
+
+/* Hero Section Start */
+.hero-section{
+	margin: 50px 0 25px;
+}
+.hero-section .intro{
+	padding: 100px 0 45px 12px;
+	color: #1E266D;
+}
+.hero-section .intro-image{
+	padding: 0;
+}
+.hero-section h1{
+	font-size: 41px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.hero-section p{
+	margin: 18px 0;
+    font-size: 21px;
+    font-weight: 100;
+    line-height: 35px;
+}
+.hero-section .btn-course{
+	background: #1E266D;
+    display: inline-block;
+    padding: 15px 28px;
+    border-radius: 10px;
+    letter-spacing: .5px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.hero-section .btn-course:hover{
+	background: #00AEEF;
+}
+
+/* Info Section Start */
+.info-section{
+	background: #F5F7FA;
+	margin: 30px 0 0;
+	padding: 40px 0 75px;
+}
+.info-section .container{
+	padding: 0;
+}
+.info-section .row{
+	margin: 5px 0;
+	padding: 25px 0px 0px;
+	height: 100%;
+	color: white;
+}
+.info-section i{
+	font-size: 25px;
+	font-weight: 800;
+}
+.info-1{
+	background: #F9799A;
+	border-radius: 7px;
+}
+.info-2{
+	background: #61C4D8;
+	border-radius: 7px;
+}
+.info-3{
+	background: #1E266D;
+	border-radius: 7px;
+}
+.info-section h2{
+	font-size: 20px;
+	font-weight: 600;
+}
+.info-section p{
+	padding-right: 12px;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+/* Learning, Support, Earning Section */
+.learning-section, .support-section, .earning-section{
+	padding: 40px 0;
+}
+.contents{
+	padding-top: 25px;
+}
+.contents h4{
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 300;
+    color: #171F3C;
+}
+.contents h2{
+	margin: 15px 0;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    color: #07324F;
+}
+.contents p{
+	letter-spacing: 0.2px;
+    line-height: 28px;
+	color: #526375;
+}
+.btn-custom{
+	background: #1E266D;
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 10px;
+    letter-spacing: .5px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btn-custom:hover{
+	background: #00AEEF;
+}
+
+/* Support Section */
+.support-section{
+	background: #F5F7FA;
+	padding: 65px 0;
+}
+
+/* Earning Section */
+.earning-section{
+	background: #FAFAFA;
+}
+
+/* Responsive Mobile CSS */
+@media (min-width: 320px) and (max-width: 576px){
+	.hero-section{margin: 30px 5px 0px;}
+	.hero-section .intro{padding: 0px 0 30px 5px;}
+	.hero-section h1{font-size: 36px; line-height: 45px;}
+	.info-section{padding: 10px 5px 30px;}
+	.info-section .info{margin-bottom: 20px;}
+	.learning-section, .earning-section{margin-bottom: 30px; padding: 0px 5px;}
+	.support-section{padding: 40px 0;}
+	.contents h2{margin: 5px 0; font-size: 36px; font-weight: 600; line-height: 45px;}
+	.contents h4{margin: 10px 0;}
+	.contents p{font-size: 17px;}
+}
